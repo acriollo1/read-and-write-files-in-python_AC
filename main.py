@@ -34,13 +34,21 @@
 # employee_file.close()
 
 
-with open('readme.txt', 'w') as f:
-  f.write('readme')
+# with open('readme.txt', 'w') as f:
+#   f.write('readme')
 
-#this overwrites the original content
-with open('readme.txt', 'w') as f:
-  f.write('i dont care')
+# #this overwrites the original content
+# with open('readme.txt', 'w') as f:
+#   f.write('i dont care')
 
-#this appends to the original content
-with open('readme.txt', 'a') as f:
-  f.write('\ni dont care 3xxx')
+# #this appends to the original content
+# with open('readme.txt', 'a') as f:
+#   f.write('\ni dont care 3xxx')
+
+#Practice
+
+# with open('practice.txt', 'w') as f:
+#   f.write('')
+
+with open('practice.txt', 'a') as f:
+  f.write(input('Enter anything you want:'))
